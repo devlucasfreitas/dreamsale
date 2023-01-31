@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Deivison Macharete",
+        "email": "deivison@gmail.com",
+        "senha": "1234"
+    },
+    {
+        "nome": "Lucas Freitas",
+        "email": "lucasf.freitas@outlook.com",
+        "senha": "12345"
+    },
+    {
+        "nome": "teste",
+        "email": "teste@outlook.com",
+        "senha": "123456789"
+    },
+    {
+        "nome": "teste2",
+        "email": "teste2@outlook.com",
+        "senha": "12345678"
+    },
+    {
+        "nome": "teste3",
+        "email": "teste3@outlook.com",
+        "senha": "123456"
+    },
+    {
+        "nome": "teste4",
+        "email": "teste3@outlook.com",
+        "senha": "0123456"
+    }
+]
