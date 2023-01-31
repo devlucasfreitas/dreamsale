@@ -13,7 +13,6 @@ btn.addEventListener("click", () => {
 //LOGICA PARA EFETUAR LOGIN
 function entrar() {
   let email = document.querySelector("#email");
-
   let senha = document.querySelector("#senha");
 
   fetch(`./../usuarios.json`)
@@ -29,7 +28,8 @@ function entrar() {
       const senhaUsuario = dados.senha;
       if (email.value === emailUsuario && senha.value === senhaUsuario) {
         entrou = true;
-        window.location.href = "./../dashboard-crm/home.html";
+        window.location.href =
+          "https://devlucasfreitas.github.io/dream-sale-crm/";
       } else if (entrou === false) {
         window.alert("Email ou senha incorretos");
       }
