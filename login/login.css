@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Itim&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Itim', cursive;
+}
+
+body{
+    background-image: url(./../imagens/red-sport-car-front-side-view-black-wheel-with-metallic-silver-color.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    
+}    
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: #ffffff95; /*numero 80 no final da cor é a opacidade */
+    height: 300px;
+    padding: 30px;
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px 0px #00000080;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#msgError{
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #00000080;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 14px;
+    transition: all .3s ease-out;
+    border-radius: 0%;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus{
+    border-bottom: 2px solid black; /*cor da linha em cima de email e senha ao clicar*/
+}
+
+.label-float label{
+    color: black; /*cor dos botoes email e senha*/
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    margin-top: 18px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+    font-size: 12px;
+    margin-top: 0%;
+}    
+
+.fa-eye{
+    position: absolute;
+    top: 20px;
+    right: 2px;
+    cursor: pointer;
+}
+
+button{
+    background-color: transparent;
+    border-color: #00000050;
+    color: #000000;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .4s ease-out;
+}
+
+button:hover{
+    background-color: #acdeff;
+}
+
+.botaoEntrar{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 70%;
+	margin-left: 13%;
+    border: .5px solid #00000080;
+}
+
+p{
+    font-size: 17px;
+    text-align: center;
+}
+
+a{
+    color: #1919af;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
