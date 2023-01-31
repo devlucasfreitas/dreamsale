@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(206, 206, 206);
+    border-bottom: solid 1px black;
+    padding: 2vh;
+    height: 6%;
+}
+
+.logoSite {
+    width: 15vh;
+    height: 15vh;
+}
+
+.campoBusca {
+    width: 65vh;
+    height: 4vh;
+    text-align: center;
+}
+
+.nomeUsuario {
+    font-size: 2.5vh;
+}
+
+section {
+    display: flex;
+    height: 90%;
+}
+
+.barraLateral {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 2vh;
+    background-color: #d4d5d6;
+    border-right: solid 1px black;
+}
+
+.barraLateral img {
+    width: 5vh;
+    height: 5vh;
+    cursor: pointer;
+}
+
+.dashCards{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    align-items: center;
+    margin-left: 10vh;
+}
+
+.boards{
+    width: 35vh;
+    height: 65vh;
+    background-color: #d7d9d9;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.tituloCard{
+    text-align: center;
+}
+
+.dropzone{
+    padding: 16px;
+    min-height: 330px;
+    min-width: 200px;
+}
+
+.card{
+    background-color: rgb(204, 201, 201);
+    padding: 14px;
+    box-shadow: 0 2px 2px;
+    width: 150px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.status{
+    width: 25px;
+    height: 5px;
+    background-color: red;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.status.red{
+    background-color: red;
+}
+
+.status.yellow{
+    background-color: rgb(255, 255, 0);
+}
+
+.status.blue{
+    background-color: blue;
+}
+
+.status.green{
+    background-color: green;
+}
+
+.status.orange{
+    background-color: rgb(224, 88, 39);
+}
+
+.status.purple{
+    background-color: purple;
+}
+
+.highlight{
+    background-color: rgb(197, 196, 196);
+    min-width: 80px;
+}
+
+.card, .dropzone{
+    transition: 400ms;
+    margin-top: 10px;
+}
+
+.is-dragging{
+    cursor: move;
+    opacity: 0.3;
+}
+
+.over{
+    background-color: rgb(114, 116, 114);
+}
+
+.dashboard{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.novasPropostas:hover{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.negociacao:hover{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.aguardandoVisita:hover{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.visitaRealizada:hover{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1150px) {
+.dashboard div {
+    width: 28vh;
+}
+}

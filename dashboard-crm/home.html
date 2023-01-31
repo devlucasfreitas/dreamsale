@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoards</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="logoSite" src="./../imagens/Dream_Sale_logo-removebg-preview-black.png" alt="Logo">
+        <input class="campoBusca" placeholder="Buscar" type="text">
+        <h4 class="nomeUsuario">Usuario</h4>
+    </header>
+
+    <section class="corpo">
+        <div class="barraLateral">
+            <img src="./../imagens/casa.png" alt="">
+            <img src="./../imagens/adicionar.png" alt="">
+            <img src="./../imagens/compartilhar.png" alt="">
+            <img src="./../imagens/do-utilizador.png" alt="">
+        </div>
+
+    <section class="dashCards">
+
+        <div class="boards"><!--Quadrado de Novas Propostas-->
+            <div class="board">
+                <h3 class="tituloCard">Novas Propostas</h3>
+                <div class="dropzone">
+                    <div class="card" draggable="true">
+                        <div class="status red"></div>
+                        <div class="content">Proposta 1</div>
+                    </div>
+                    <div class="card" draggable="true">
+                        <div class="status yellow"></div>
+                        <div class="content">Proposta 2</div>
+                    </div>    
+                </div>       
+            </div>  
+        </div>         
+
+        <div class="boards"><!--Quadrado de Negociações-->
+            <div class="board">
+                <h3 class="tituloCard">Negociações</h3>
+                <div class="dropzone">
+                    <div class="card" draggable="true">
+                        <div class="status blue"></div>
+                        <div class="content">Proposta 3</div>
+                    </div>
+                </div>       
+            </div>
+        </div>
+
+        <div class="boards"><!--Quadrado de Aguardando Visita-->
+            <div class="board">
+                <h3 class="tituloCard">Aguardando Visita</h3>
+                <div class="dropzone">
+                    <div class="card" draggable="true">
+                        <div class="status green"></div>
+                        <div class="content">Proposta 4</div>
+                    </div>
+                    <div class="card" draggable="true">
+                        <div class="status orange"></div>
+                        <div class="content">Proposta 5</div>
+                    </div>
+                </div>       
+            </div>
+        </div>
+
+        <div class="boards"><!--Quadrado de Visita Realizada-->
+            <div class="board">
+                <h3 class="tituloCard">Visita Realizada</h3>
+                <div class="dropzone">
+                    <div class="card" draggable="true">
+                        <div class="status purple"></div>
+                        <div class="content">Proposta 6</div>
+                    </div>
+                </div>       
+            </div>
+        </div>
+        
+        <script src="./home.js"></script>
+       
+</body>
+
+</html>
